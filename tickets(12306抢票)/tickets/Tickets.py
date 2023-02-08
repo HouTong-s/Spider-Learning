@@ -277,8 +277,8 @@ class Tickets(object):
                 EC.presence_of_element_located((By.CLASS_NAME, 'i-lock ')))
             #连接邮件服务器
             print("开始")
-            yag = yagmail.SMTP(user='ht1291227829@163.com',           #用户名
-                            password='VPSFMOHBWISASQFY',                  #密码，这里是授权码，不是真正的密码
+            yag = yagmail.SMTP(user='xxxxxx@163.com',           #用户名
+                            password='xxxxxxx',                  #这里是授权码，不是真正的密码
                             host='smtp.163.com',               #主机
                             port='465')                          #端口
             message = "亲，抢票成功，请在半个小时之内前往支付！"
